@@ -39,7 +39,7 @@ print(e);
 
 e = new Error(undefined);
 print(e);
-//CHECK: Error
+//CHECK: Erro
 
 e = new Error('undefined');
 print(e);
